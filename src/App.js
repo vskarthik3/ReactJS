@@ -1,11 +1,11 @@
-import navbar from "./Navbar/navbar";
-import About from "./Navbar/about";
-import contact from "./Navbar/contact";
-function web(){
-    return <div>
-        <navbar />
-        <br/>
+import React from 'react'
+class MYwork extends React.Component{
+    
+    render(){
+        return <div>
+            <h4>Hii This is KArthik here is the first web page with the react</h4>
 
-    </div>
+        </div>
+    }
 }
-export default web
+export default MYwork
