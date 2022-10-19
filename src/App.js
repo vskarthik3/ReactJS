@@ -1,17 +1,11 @@
-import React from 'react'
-import Message from './Components/Message'
-import Hero from './Components/Hero'
-class App extends React.Component {
+import User from './PropsEx/User'
+let App = () => {
 
-    render() {
-        console.log("Test Case 123 - Second ")
-        return <div>
-            <h1>App Comp</h1>
-            <hr />
-            <Message />
-            <hr />
-            <Hero />
-        </div>
-    }
+    return <div>
+        <h1>App Comp</h1>
+        <hr />
+        <User />
+    </div>
+
 }
 export default App
