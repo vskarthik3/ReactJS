@@ -1,6 +1,10 @@
-function App(){
+ import compoB from './Compo/compoB';
+ 
+ function App(){
     return <div>
-        <h1>Hello</h1>
+        <p>Hii this is </p>
+        <machine />
     </div>
+
 }
 export default App
