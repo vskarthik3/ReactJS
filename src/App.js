@@ -1,11 +1,6 @@
-import User from './PropsEx/User'
-let App = () => {
-
+function App(){
     return <div>
-        <h1>App Comp</h1>
-        <hr />
-        <User />
+        <h1>Hello</h1>
     </div>
-
 }
 export default App
