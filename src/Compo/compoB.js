@@ -5,7 +5,7 @@ class compoB extends React.Component{
     return<div>
         <h1>Hello Good Afternoon</h1>
         <p>This is a ReactJS</p>
-        
+        <p>uefhie jndcje</p>
     </div>
     }
 }
