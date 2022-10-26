@@ -1,11 +1,10 @@
- import compoB from './Compo/compoB';
  import Navbar from './Compo/navbar';
-
+import Main from './Compo/html';
 
  function App(){
     return <div>
         <Navbar />
-        <p>Hii this is </p>
+        <Main />
     </div>
 
 }
